@@ -14,7 +14,7 @@ export function Home() {
     <div>
       <h1>BIENVENID@ {user.displayName || user.email}</h1>
       <button onClick={handleLogout}>logout</button>
-      <label htmlFor='mesa'>Numero de mesa</label>
+      
       
      
     </div>

@@ -26,7 +26,7 @@ export function Register() {
   return (
     <>
       <header>
-        <h1>PIDE YA</h1>
+        <h1>Comsuresp</h1>
       </header>
       <div className={styles.containerLogin}>
         {error && <h4>{error} </h4>}
@@ -49,7 +49,7 @@ export function Register() {
           />
           <button className={styles.registrar}>Registrar</button>
         </form>
-        <h4>¿ya tienes cuenta con PIDE YA?</h4>
+        <h4>¿ya tienes cuenta con Comsuresp?</h4>
         <a href='/'>
           <button className={styles.registro}>Inicia sesión aquí</button>
         </a>

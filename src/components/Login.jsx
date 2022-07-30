@@ -33,7 +33,7 @@ export function Login() {
   return (
     <>
       <header>
-        <h1>PIDE YA</h1>
+        <h1>Comsuresp</h1>
       </header>
       <div className={styles.containerLogin}>
         {error && <h4 data-testid='mensaje-error'>{error} </h4>}
@@ -64,7 +64,7 @@ export function Login() {
           />
           Iniciar con Google
         </button>
-        <h4>¿Aún no tienes cuenta con PIDE YA?</h4>
+        <h4>¿Aún no tienes cuenta con Comsuresp?</h4>
         <a href='/Register'>
           <button className={styles.registro}>Regístrate aqui</button>
         </a>
