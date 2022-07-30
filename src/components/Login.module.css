@@ -1,0 +1,117 @@
+h1{
+    max-width: 940px;
+    font-size: 2.5em;
+    font-family: fantasy;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 40px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 111px;
+    margin-bottom: 20px;
+  }
+  .containerLogin{
+    height: 70vh;
+    /* width: 115%; */
+    place-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 130px;
+    background: radial-gradient(black, transparent);
+  }
+  h4{
+    margin-bottom: 5px;
+    font-size: medium;
+    color: white;
+  }
+  label{
+    font-size: medium;
+      font-weight: bold;
+      margin-right: 100px;
+  }
+  input{
+    width: 105%;
+    height: 30px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    display: block;
+    margin-right: 20px;
+  }
+  .login{
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    margin-bottom: 16px;
+  }
+  .loginGoogle{
+    width: 69%;
+    height: 30px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+  }
+  .logo{
+    height: 22px;
+    margin-top: auto;
+    margin-right: 5px;
+  }
+  .registro{
+      width: 96%;
+      height: 30px;
+      border-radius: 15px;
+      margin-bottom: 16px;
+      margin-right: 95px;
+  }
+  .registrar{
+      width: 100%;
+      height: 30px;
+      border-radius: 15px;
+      margin-bottom: 16px;
+  }
+  @media screen and (min-width:767px){
+    .containerLogin{
+      width: 510px;
+    }
+    h1{
+      font-size: xxx-large;
+      margin-left: 184px;
+    }
+    h4{
+      font-size: x-large;
+    }
+    input{
+      width: 280px;
+      height: 40px;
+      font-size: medium;
+    }
+    .login{
+      font-size: medium;
+      width: 93%;
+    }
+    .loginGoogle{
+      width: 55%;
+      margin-right: 21px;
+      font-size: medium;
+  }
+    .registro{
+      font-size: medium;
+    }
+    .registrar{
+      font-size: medium;
+      width: 93%;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
