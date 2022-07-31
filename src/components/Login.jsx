@@ -72,12 +72,3 @@ export function Login() {
     </>
   );
 }
-
-
-
-
-
-
-
-
-

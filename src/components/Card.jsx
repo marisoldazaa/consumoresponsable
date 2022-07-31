@@ -1,18 +1,39 @@
-import arbol from '../../img/arbol.png'
+import arbol from '../img/arbol.png'
+import style from './Card.module.css'
+import Swal from 'sweetalert2';
 
-const Card = (accion) => {
+
+const Card = (dataAccion) => {
+	const {dataAccion: nuevaData} = dataAccion;
+
+	const submitHandle = () => {
+		console.log('Hola')
+		return new Swal ({
+			title: 'Enviado',
+			text: 'Gracias por reducir tu huella',
+			imageUrl: 'https://firebasestorage.googleapis.com/v0/b/consumoresponsable-04.appspot.com/o/DataAcciones%2FLogo.png?alt=media&token=a66edd2d-86f1-4c59-943c-364e12fc398c',
+			imageWidth: 200,
+			imageHeight: 200,
+			imageAlt: 'Logo',
+		})
+	}
+
+
 	return (
 		<>
-			<div id='flip-card' className='flip-card'>
-				<div className='flip-card-inner'>
-					<div className='flip-card-front' id='poster'>
-						<img src={accion.imagen} />
+			<div id='flip-card' className={style.flipCard}>
+				<div className={style.flipCardInner}>
+					<div className={style.flipCardFront} id='poster'>
+						<img src={nuevaData.imagen} />
 					</div>
-					<div className='flip-card-back'>
-						<h1 id='title'>${accion.titulo}</h1>
-						<p id='rel ease_date'>${accion.descripcion}</p>
-						<input type='file' />
-            <button><img src={arbol} alt="" /></button>
+					<div className={style.flipCardBack}>
+						<h5>{nuevaData.titulo}</h5>
+						<p>{nuevaData.descripcion}</p>
+						<p>Puntos: {nuevaData.valor}</p>
+						<div className={style.submitButton}>
+							<input type='file' placeholder='Adjunta'/>
+							<button onClick={() => {submitHandle()}} ><img src={arbol} alt="Boton enviar" /></button>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -20,4 +41,4 @@ const Card = (accion) => {
 	);
 };
 
-export default Card;
+export default Card; 
