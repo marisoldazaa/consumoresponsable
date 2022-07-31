@@ -60,8 +60,6 @@ export function Login() {
 					<button className={styles.loginGoogle} onClick={handleGoogleSignin}>
 						<img
 							className={styles.logo}
-							/* src={require('../img/Google.png')}
-            alt='logo Google' */
 						/>
 						Iniciar con Google
 					</button>
