@@ -1,18 +1,19 @@
-import arbol from '../../img/arbol.png'
-
-const Card = (accion) => {
+import arbol from '../img/arbol.png'
+import style from './Card.module.css'
+const Card = () => {
 	return (
 		<>
-			<div id='flip-card' className='flip-card'>
-				<div className='flip-card-inner'>
-					<div className='flip-card-front' id='poster'>
-						<img src={accion.imagen} />
+			<div id='flip-card' className={style.flipCard}>
+				<div className={style.flipCardInner}>
+					<div className={style.flipCardFront} id='poster'>
+						<img src='' />
 					</div>
-					<div className='flip-card-back'>
-						<h1 id='title'>${accion.titulo}</h1>
-						<p id='rel ease_date'>${accion.descripcion}</p>
+					<div className={style.flipCardBack}>
+						<h1 id='title'>titulo</h1>
+						<p id='rel ease_date'>descripción</p>
+						<label> Adjunta tu evidencia: </label>
 						<input type='file' />
-            <button><img src={arbol} alt="" /></button>
+            			<button><img src={arbol} alt="" /></button>
 					</div>
 				</div>
 			</div>

@@ -3,9 +3,9 @@ import './App.css';
 import { Register } from './components/Register';
 import { Login } from './components/Login';
 import { Home } from './components/Home';
-import { Accion } from './components/Accion';
 import { AuthProvider } from './context/authContext';
 import { ProtectedRoute } from './components/ProtectedRoute';
+import Card from './components/Card';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
               </ProtectedRoute>
             }
           />
-          <Route path='Accion' element={<Accion />} />
+          <Route path='Accion' element={<Card />} />
         </Routes>
       </AuthProvider>
     </div>
