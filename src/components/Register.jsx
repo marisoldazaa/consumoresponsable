@@ -18,7 +18,7 @@ export function Register() {
     setError('');
     try {
       await signup(user.email, user.password);
-      navigate('/Home');
+      navigate('/Accion');
     } catch (error) {
       setError(error.message);
     }
