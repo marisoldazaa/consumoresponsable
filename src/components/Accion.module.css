@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.container img{
+    margin: 5px;
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
