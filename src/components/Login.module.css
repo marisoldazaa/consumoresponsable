@@ -1,7 +1,16 @@
-h1{
-    
-  }
+.containerLogin{
+  background-image: url('../img/Landing_image_fondoblanco.png');
+
+}
+ /*  background-image: url('../img/Landing_image_fondoblanco.png');;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900vh;
+  width: 90%;
+  border-radius: 30px;  
+} */
   .containerLogin{
+    background-image: url('../img/Landing_image_fondoblanco.png');
     position: absolute;
     width: 552px;
     height: 618px;

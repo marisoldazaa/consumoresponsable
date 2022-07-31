@@ -32,9 +32,9 @@ export function Login() {
   };
   return (
     <>
-      <header>
-        <h1>Comsuresp</h1>
-      </header>
+     
+        <div className={styles.containerLogin}>
+      
       <div className={styles.containerLogin}>
         {error && <h4 data-testid='mensaje-error'>{error} </h4>}
         <h4 className={styles.titulo}>¡Hola de nuevo!</h4>
@@ -69,6 +69,7 @@ export function Login() {
         <a href='/Register'>
           <button className={styles.registro}>Regístrate aqui</button>
         </a>
+      </div>
       </div>
     </>
   );
