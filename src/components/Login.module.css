@@ -1,70 +1,158 @@
 h1{
-    max-width: 940px;
-    font-size: 2.5em;
-    font-family: fantasy;
-    font-weight: 700;
-    line-height: 1.1;
-    margin: 40px;
-    margin-top: 20px;
-    margin-right: 50px;
-    margin-left: 111px;
-    margin-bottom: 20px;
+    
   }
   .containerLogin{
-    height: 70vh;
-    /* width: 115%; */
-    place-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 130px;
-    background: radial-gradient(black, transparent);
+    position: absolute;
+    width: 552px;
+    height: 618px;
+    left: 150px;
+    top: 125px;
+    background: rgba(184, 211, 155, 0.8);
+    border-radius: 20px;
   }
   h4{
-    margin-bottom: 5px;
-    font-size: medium;
-    color: white;
+    
   }
+.titulo{
+  position: absolute;
+width: 485px;
+/*left: 334px;
+top: 127px; */
+font-family: 'Goldplay Alt';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+color: #3D5F1A;
+
+
+}
+.subtitulo{
+  position: absolute;
+ width: 480px;
+ top: 50px;
+/*height: 17px;
+left: 316px;
+ */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+text-align: center;
+color: #3D5F1A;
+}
+
   label{
-    font-size: medium;
-      font-weight: bold;
-      margin-right: 100px;
+   /*  position: absolute;
+    width: 429px;
+    height: 50px;
+    left: 212px;
+    top: 409px;
+    background: #FFFFFF;
+    border: 1px solid #7E7373;
+    border-radius: 6px; */
   }
   input{
-    width: 105%;
-    height: 30px;
+   /*  margin-top: 100px;
+    margin-bottom: 5px; 
+    margin-right: 40px;
+    margin-left: 55px;
+    width: 405px;
+    height: 32px;
     border-radius: 6px;
-    margin-bottom: 25px;
-    display: block;
-    margin-right: 20px;
+    display: block;  */
+     
   }
+
+.email{
+  margin-top: 130px;
+  margin-bottom: 5px; 
+  margin-right: 40px;
+  margin-left: 55px;
+  width: 405px;
+  height: 32px;
+  border-radius: 6px;
+  display: block; 
+}
+
+.password{
+  margin-top: 20px;
+  margin-bottom: 5px; 
+  margin-right: 40px;
+  margin-left: 55px;
+  width: 405px;
+  height: 32px;
+  border-radius: 6px;
+  display: block; 
+}
+
   .login{
-    width: 100%;
-    height: 30px;
-    border-radius: 15px;
-    margin-bottom: 16px;
+     box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 32px;
+    gap: 8px;
+    position: absolute;
+    width: 410px;
+    height: 40px;
+    left: 55px;
+    top: 250px;
+    background: #33978B;    
+    border: 1px solid #33978B;
+    border-radius: 8px; 
   }
   .loginGoogle{
-    width: 69%;
-    height: 30px;
-    border-radius: 15px;
-    margin-bottom: 25px;
+    position: absolute;
+    width: 429px;
+    height: 50px;
+    left: 48px;
+    top: 394px;
+    background: #FFFFFF;
+    border: 1px solid #7E7373;
+    border-radius: 6px;
   }
   .logo{
-    height: 22px;
+   /*  height: 22px;
     margin-top: auto;
-    margin-right: 5px;
+    margin-right: 5px; */
   }
+  .ultimotexto{
+    position: absolute;
+width: 367px;
+height: 53px;
+left: 90px;
+top: 479px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+
+color: #7E7373;
+  }
+
   .registro{
-      width: 96%;
-      height: 30px;
-      border-radius: 15px;
-      margin-bottom: 16px;
-      margin-right: 95px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 32px;
+    gap: 8px;
+    position: absolute;
+    width: 410px;
+    height: 40px;
+    left: 55px;
+    top: 320px;
+    background: #33978B;    
+    border: 1px solid #33978B;
+    border-radius: 8px;
   }
   .registrar{
       width: 100%;
@@ -72,40 +160,11 @@ h1{
       border-radius: 15px;
       margin-bottom: 16px;
   }
-  @media screen and (min-width:767px){
-    .containerLogin{
-      width: 510px;
-    }
-    h1{
-      font-size: xxx-large;
-      margin-left: 184px;
-    }
-    h4{
-      font-size: x-large;
-    }
-    input{
-      width: 280px;
-      height: 40px;
-      font-size: medium;
-    }
-    .login{
-      font-size: medium;
-      width: 93%;
-    }
-    .loginGoogle{
-      width: 55%;
-      margin-right: 21px;
-      font-size: medium;
+
+  form{
+    color: red;
+    margin: 0;
   }
-    .registro{
-      font-size: medium;
-    }
-    .registrar{
-      font-size: medium;
-      width: 93%;
-    }
-  }
-  
   
   
   

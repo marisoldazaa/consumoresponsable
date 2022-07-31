@@ -1,4 +1,4 @@
-import Card from "./Card";
+/* import Card from "./Card";
 
 
 const Accion = () => {
@@ -11,4 +11,4 @@ const Accion = () => {
   )
 }
 
-export default Accion
+export default Accion */

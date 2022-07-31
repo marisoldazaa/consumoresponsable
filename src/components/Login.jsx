@@ -37,17 +37,18 @@ export function Login() {
       </header>
       <div className={styles.containerLogin}>
         {error && <h4 data-testid='mensaje-error'>{error} </h4>}
-        <h4 className={styles.titulo}>BIENVENID@ INGRESA AQUI</h4>
+        <h4 className={styles.titulo}>¡Hola de nuevo!</h4>
+        <h4 className={styles.subtitulo}>Gracias por ser parte del cambio</h4>
         <form onSubmit={handleSubmit}>
           <label htmlFor='email'></label>
-          <input
+          <input className={styles.email}
             type='text'
             name='email'
             placeholder='Email'
             onChange={handleChange}
           />
           <label htmlFor='password'></label>
-          <input
+          <input className={styles.password}
             type='password'
             name='password'
             placeholder='Contraseña'
@@ -64,7 +65,7 @@ export function Login() {
           />
           Iniciar con Google
         </button>
-        <h4>¿Aún no tienes cuenta con Comsuresp?</h4>
+        <h4 className={styles.ultimotexto}> Don’t have an account? Sign up </h4>
         <a href='/Register'>
           <button className={styles.registro}>Regístrate aqui</button>
         </a>

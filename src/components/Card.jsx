@@ -1,4 +1,4 @@
-import arbol from '../../img/arbol.png'
+/* import arbol from '../../img/arbol.png'
 
 const Card = (accion) => {
 	return (
@@ -20,4 +20,4 @@ const Card = (accion) => {
 	);
 };
 
-export default Card;
+export default Card; */
