@@ -17,7 +17,7 @@ export function Login() {
     setError('');
     try {
       await login(user.email, user.password);
-      navigate('/Home');
+      navigate('/Accion');
     } catch (error) {
       setError(error.message);
     }
@@ -25,7 +25,7 @@ export function Login() {
   const handleGoogleSignin = async () => {
     try {
       await loginGoogle();
-      navigate('/Home');
+      navigate('/Accion');
     } catch (error) {
       setError(error.message);
     }
