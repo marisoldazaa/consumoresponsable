@@ -41,4 +41,4 @@ const Card = (dataAccion) => {
 	);
 };
 
-export default Card;
+export default Card; 

@@ -1,0 +1,10 @@
+
+
+.containerHome{
+    background-image: url('../img/Landing_image_fondoblanco.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 90%;
+    border-radius: 30px;
+}
