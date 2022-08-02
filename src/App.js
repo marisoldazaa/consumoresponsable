@@ -4,6 +4,7 @@ import { Register } from './components/Register';
 import { Login } from './components/Login';
 import { Home } from './components/Home';
 import { AuthProvider } from './context/authContext';
+import Accion from './components/Accion';
 
 function App() {
 	return (
