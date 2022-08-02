@@ -4,7 +4,70 @@
     background-image: url('../img/Landing_image_fondoblanco.png');
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 20px;
     height: 90vh;
     width: 90%;
     border-radius: 30px;
+}
+
+.navbarHome{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 30px;
+    margin-right: 50px;
+    margin-top: 50px;
+
+}
+
+.logoHome{
+    /* top: 113px; */
+    margin-left: 162px;
+    margin-top: 150px;
+}
+.logoHome{
+    width: 200px;
+    height: 200px;
+}
+
+.navbarRedirect{
+   width: 194px;
+   height: 48px;
+}
+
+.containerIntro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 350px;
+    height: 270px;
+    margin-top: 125px;
+    margin-left: 120px;
+    font-size: 13px;
+}
+
+.botonHome{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 32px;
+    gap: 8px;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 180px;
+    top: 480px; 
+    background: #33978B;    
+    border: 1px solid #33978B;
+    border-radius: 8px;
+    text-decoration: none;
 }

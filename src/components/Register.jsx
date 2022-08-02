@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { useAuth } from '../context/authContext';
 import { useNavigate } from 'react-router-dom';
 import styles from './Login.module.css';
-
 export function Register() {
   const [user, setUser] = useState({
     email: '',
@@ -18,29 +17,27 @@ export function Register() {
     setError('');
     try {
       await signup(user.email, user.password);
-      navigate('/Accion');
+      navigate('/Home');
     } catch (error) {
       setError(error.message);
     }
   };
   return (
     <>
-      <header>
-        <h1>Equilibrium</h1>
-      </header>
+      <div className={styles.containerL} >
       <div className={styles.containerLogin}>
         {error && <h4>{error} </h4>}
-        <h4 className='titulo'>BIENVENID@ INGRESA AQUI</h4>
+        <h4 className={styles.titulo}>¡Aquí crea tu cuenta!</h4>
         <form onSubmit={handleSubmit}>
           <label htmlFor='email'></label>
-          <input
+          <input className={styles.email}
             type='text'
             name='email'
             placeholder='Correo'
             onChange={handleChange}
           />
           <label htmlFor='password'></label>
-          <input
+          <input className={styles.password}
             type='password'
             name='password'
             placeholder='Contraseña'
@@ -49,14 +46,12 @@ export function Register() {
           />
           <button className={styles.registrar}>Registrar</button>
         </form>
-        <h4>¿ya tienes cuenta con Equilibrium?</h4>
-        <a href='/'>
+        {/* <h4 className={styles.titleregistrar}>¿Ya tienes cuenta con Equilibrium?</h4> */}
+        <a href='/Login'>
           <button className={styles.registro}>Inicia sesión aquí</button>
         </a>
+      </div>
       </div>
     </>
   );
 }
-
-
-
