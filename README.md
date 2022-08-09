@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+**¡EQUILIBRIUM!**
+ 
+Equilibrium, fue construido durante la Hackathon #FemTech organizada por Imagine Apps, Microsoft y Digital House.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://i.imgur.com/MGwLzoh.png)
 
-## Available Scripts
 
-In the project directory, you can run:
+**OBJETIVO**
 
-### `npm start`
+Cada uno de los squads (*conformado por tres desarrolladores y una diseñadora*) debía elegir uno de Objetivos de desarrollo sostenible de la [ONU](https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/) y debían crear una aplicación que contribuyeran al cumplimiento de dicho objetivo. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**OBJETIVO #12 PRODUCCIÓN Y CONSUMO RESPONSABLE** 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Como equipo consideramos que en este objetivo específico recae la responsabilidad de las últimas generaciones. A partir de 1900 con las revoluciones industriales, el consumo con respecto a otras épocas es impresionantemente mayor. Debemos desvincular el progreso económico con el daño al planeta, es momento de unir y entender que este mismo progreso se trata de tomar responsabilidad de nuestro consumo y entender que los seres humanos tienen necesidades ilimitadas, pero el planeta posee una capacidad limitada para satisfacerlas. 
+ 
+*“Si la población mundial llegase a alcanzar los 9600 millones en 2050, se necesitaría el equivalente de casi tres planetas para proporcionar los recursos naturales precisos para mantener el estilo de vida actual”*
 
-### `npm test`
+**[¿CÓMO FUNCIONA EQUILIBRIUM?](https://youtu.be/JV4fbRjDuM8)**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*Equilibrium*, es una aplicación donde los usuarios pueden realizar un test para conocer su huella de carbono, y cuántos árboles representa está, pero más allá de que el usuario se sienta mal por la magnitud de su huella, lo invitamos a realizar diversas actividades para subsanar y reparar la incidencia de esta; mediante gamificación podrá ganar un puntaje representado en “árboles” por cada actividad que realice, este puntaje podrá convertirse en bonos y recompensas de empresas que estén comprometidas con el mismo
 
-### `npm run build`
+**TECNOLOGÍAS Y HERRAMIENTAS**
+* React JS
+* CSS
+* Firebase 
+* FireStore
+* GIT- GITHUB
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**RESULTADOS DE LA HACKATHON**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Junto con Francy Milena Corredor Ramírez , Alejandra Niño , Daniela Cifuentes **¡GANAMOS EL SEGUNDO LUGAR!** Realizamos un trabajo en equipo increíble, le apostamos demasiado a nuestra idea y nos esforzamos por hacerla realidad. Todo lo que se construye en comunidad esta destinada a perdurar.”
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Tal como menciona Imagine Apps en su [publicación](https://www.imagineapps.co/blog-posts-es/femtech-la-primera-hackathon-de-mujeres-de-imagine-apps) donde hace un resumen de los resultados del evento. 
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Segundo lugar](https://i.imgur.com/tKAe79S.jpg)
