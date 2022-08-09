@@ -1,4 +1,4 @@
-**¡EQUILIBRIUM!**
+# **¡EQUILIBRIUM!**
  
 Equilibrium, fue construido durante la Hackathon #FemTech organizada por Imagine Apps, Microsoft y Digital House.
 
